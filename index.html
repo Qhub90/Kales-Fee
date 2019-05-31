@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Flat Fee</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#home" class="brand-logo"><img class="kale-logo" src="img/kale-logo.png" alt="KaleRealty"></a>
+          
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#main-info">How it Works/What's Included</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#main-info">How it Works/What's Included</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+
+  <div id="index-banner" class="parallax-container">
+    <div id="home" class="section scrollspy no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center white-text text-lighten-2">List on the MLS for</h1>
+        <div class="row center">
+            <h1 class="header col s12 "><span class="typer" id="main" data-colors="#076de0" data-loop="1" data-words=" 6%, 5%, Only $399" data-delay="100" data-deleteDelay="1000"></span>
+              <span class="cursor" data-owner="main"></span></h1>
+          <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
+        </div>
+        <div class="row center">
+          <a href="#modal1" class="btn-large waves-effect waves-light blue darken-3 modal-trigger">Get Started</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="img/Home.jpg" id="home-img" alt="Unsplashed background img 1"></div>
+  </div>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+      <div class="modal-header">
+          <p>------Please contact------</p>
+      </div>   
+      <div class="modal-content">
+        <div class="box"><p class="name"><span>Quentin Turner</span></p></div>
+        <div class="box"><p class="small" id="title">Broker Associate</p></div>
+        <div class="box"><img class="kale-logo" src="img/kale-logo.png" alt="KaleRealty"></div> 
+        <div class="box last-left-col">
+          <p class="small number"><a href="tel:219.789.2845"><span>219.789.2845</span></a></p>
+          <p class="small email"><a href="mailto:qturner@kalrealty.com"><span>qturner@kalerealty.com</span></a></p>
+        </div>
+        <div class="box last-right-col">
+          2447 N Ashland <br>
+          Chicago, IL 60614 <br>
+          T: 312.939.5253
+        </div>
+        <div class="box equal">
+          <img class="equal-logo" src="img/equal-housing.jpg" alt="Equal Housing">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>  
+  </div>  
+    <!-- How it Works/Whats Included  -->
+  <div class="container">
+    <div id="main-info" class="section scrollspy">
+
+      <!--   Icon Section   -->
+      <div class="row">
+      <ul id="tabs-swipe-demo" class="tabs">
+          <li class="tab col s3"><a href="#how-it-works" class="black-text">HOW IT WORKS</a></li>
+          <li class="tab col s3"><a href="#whats-included" class="black-text">WHAT'S INCLUDEd</a></li>
+        </ul>
+        <div id="how-it-works" class="col s12 m6">
+          <h3>How it Works</h3>
+          <ul>
+              <li>You pay us a flat fee of <span>$399</span> and we become your listing agent</li>
+              <li>Since you are on the MLS you are required to offer a commission to the buyers agent (amount is up to you)</li>
+              <li>Agents will contact you directly. Any email or phone leads we receive will be forwarded to you</li>
+              <li>All offers from Agents will be received by us and emailed directly to you ASAP.</li>
+              <li>You can cancel at anytime</li>            
+          </ul> 
+        </div>
+        <div id="whats-included" class="col s12 m6">
+            <h3>Whats included</h3>
+            <ul>
+                <li>Your Listing on the <span>MLS</span></li>
+                <li>Your Listing on all the popular Real Estate websites (Realtor.com, Zillow, Redfin, etc)</li>
+                <li>A Realtor who will be available to you (via phone or email) from list to close</li>
+                <li>Professional <span>C</span>omparative <span>M</span>arket <span>A</span>nalysis</li>
+                <li>Professionally installed Yard Sign</li>
+                <li>Unlimited changes to your listing</li>
+                <li>Unlimited Open House Advertising </li>
+                <li>Sales Contracts and Disclosure Forms</li>
+           </ul>
+        </div>
+      </div>  
+      <!-- <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper scrollspy">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img id="kitchen-img" src="img/Kitchen.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div id="about" class="section scrollspy">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send "></i></h3>
+          <h4>About Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper scrollspy">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/Bathroom.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div id="middle-kale-logo" class="col l4 s12">
+           <a target="_blank" href="https://www.kalerealty.com/"><img class="kale-logo" src="img/kale-logo.png" alt="KaleRealty.com"></a>
+        </div>
+        <div class="col l4 s12 company-info">
+          <h5 class="white-text">Kale Realty</h5>
+          <ul>
+            <li>2447 N Ashland, Chicago, IL 60614</li>
+            <li><a class="white-text" href="tel:312.939.5253">312.939.5253</a></li>
+            <li><a class="white-text" href="mailto:info@kalerealty.com">info@kalerealty.com</a></li>
+          </ul>
+        </div>
+        <div class="col l4 s12 company-social-media">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" target="_blank" href="https://www.facebook.com/joinkalerealty"><img id="facebook-icon" src="img/facebook.png" alt="facebook"></a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+          Copyright &copy; 2019 Quentin Turner
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+
+
+  </body>
+</html>
