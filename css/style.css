@@ -210,7 +210,19 @@ footer .kale-logo {
   }
 
   .modal-content p {
-    font-size: 100%;
+    font-size: 80%;
+  }
+
+  .modal-content img {
+    height: 50px;
+    width: 60px;
+  }
+
+  .last-right-col p {
+    font-size: 60%;
+    line-height: 20px;
+    width: 120px;
+    margin-left: 50px;
   }
 
   #home .section {
